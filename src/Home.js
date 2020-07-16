@@ -13,6 +13,7 @@ const Home = () => {
       <div className='home__row'>
         <Product
           id={3454647657}
+          key={3454647657}
           title='The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback'
           price={11.96}
           rating={5}
@@ -20,6 +21,7 @@ const Home = () => {
         />
         <Product
           id={567869879}
+          key={567869879}
           title='Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl'
           price={239}
           rating={4}
@@ -29,6 +31,7 @@ const Home = () => {
       <div className='home__row'>
         <Product
           id={456678}
+          key={456678}
           title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
           price={199}
           rating={3}
@@ -36,6 +39,7 @@ const Home = () => {
         />
         <Product
           id={869885676}
+          key={869885676}
           title='Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric'
           price={98.99}
           rating={5}
@@ -43,6 +47,7 @@ const Home = () => {
         />
         <Product
           id={56768564}
+          key={56768564}
           title='New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)'
           price={598.99}
           rating={4}
@@ -52,6 +57,7 @@ const Home = () => {
       <div className='home__row'>
         <Product
           id={987456345}
+          key={987456345}
           price={1094.98}
           title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
           rating={4}
