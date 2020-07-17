@@ -14,7 +14,19 @@ export const initialState = {
       rating: 5,
       image: 'https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg',
     },
+    {
+      id: 987456345,
+      key: 987456345,
+      price: 1094.98,
+      title: "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440",
+      rating: 4,
+      image: 'https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg',
+    },
   ],
+};
+
+export const getBasketTotal = (basket) => {
+  return basket.reduce((amount, item) => item.price + amount, 0);
 };
 
 const reducer = (state, action) => {
@@ -39,7 +51,7 @@ const reducer = (state, action) => {
       }
 
       return {
-         ...state,
+        ...state,
         basket: newBasket,
       };
 
